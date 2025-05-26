@@ -40,7 +40,7 @@ st.markdown("""
         margin-left: 0;
         padding: 10px;
         border-radius: 10px 10px 10px 0;
-        background-color: #b3b1b1;  /* Dark gray in both modes */
+        background-color: #333333;  /* Dark gray in both modes */
         color: white !important;
     }
     @media (prefers-color-scheme: dark) {
