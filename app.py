@@ -37,7 +37,7 @@ st.markdown("""
     }
     .stChatInput {
         position: fixed;
-        bottom: 20px;
+        bottom: 50px;
     }
     .pdf-display {
         padding: 10px;
