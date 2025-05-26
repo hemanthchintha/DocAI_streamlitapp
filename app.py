@@ -35,15 +35,13 @@ st.markdown("""
         border-radius: 10px 10px 10px 0;
         background-color: #f5f5f5;
     }
-    /* Fix for chat input box */
     .stChatInput {
         position: fixed !important;
-        bottom: 20px !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        width: 80% !important;
-        max-width: 800px !important;
-        z-index: 100 !important;
+        text-align: left;
+        margin-right: 20%;
+        margin-left: 0;
+        padding: 10px;
+        border-radius: 10px 10px 10px 0;;
     }
     /* Position the manage app button */
     .stDeployButton {
