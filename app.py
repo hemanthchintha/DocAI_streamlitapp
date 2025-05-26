@@ -31,7 +31,7 @@ st.markdown("""
         margin-right: 0;
         padding: 10px;
         border-radius: 10px 10px 0 10px;
-        background-color: #1e88e5;  /* Blue in both modes */
+        background-color: #1ec7e5;  /* Blue in both modes */
         color: white !important;  /* White text guaranteed */
     }
     .assistant-message {
