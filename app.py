@@ -31,8 +31,8 @@ st.markdown("""
         margin-right: 0;
         padding: 10px;
         border-radius: 10px 10px 0 10px;
-        background-color: #333333;  /* Dark gray in both modes */
-        color: white !important;
+        background-color: #1e88e5;  /* Blue in both modes */
+        color: white !important;  /* White text guaranteed */
     }
     .assistant-message {
         text-align: left;
@@ -40,9 +40,18 @@ st.markdown("""
         margin-left: 0;
         padding: 10px;
         border-radius: 10px 10px 10px 0;
-        background-color: #1e88e5;  /* Blue in both modes */
-        color: white !important;  /* White text guaranteed */
+        background-color: #333333;  /* Dark gray in both modes */
+        color: white !important;
     }
+    @media (prefers-color-scheme: dark) {
+        .user-message {
+            background-color: #1565c0 !important;  /* Slightly darker blue */
+        }
+        .assistant-message {
+            background-color: #424242 !important;  /* Slightly lighter gray */
+        }
+    }
+    
     div[data-testid="stChatInputContainer"] {
         width: 400px !important;
         max-width: 400px !important;
