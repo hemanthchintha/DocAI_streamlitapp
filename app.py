@@ -17,6 +17,13 @@ st.set_page_config(
 st.title("Doc AI - Pediatric Assistant 👶")
 
 # Custom CSS
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.markdown("""
 <style>
     .user-message {
