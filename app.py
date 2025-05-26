@@ -35,6 +35,7 @@ st.markdown("""
         border-radius: 10px 10px 10px 0;
         background-color: #f5f5f5;
     }
+    /* Fix for chat input box */
     .stChatInput {
         position: fixed !important;
         bottom: 20px !important;
@@ -44,6 +45,7 @@ st.markdown("""
         max-width: 800px !important;
         z-index: 100 !important;
     }
+    /* Position the manage app button */
     .stDeployButton {
         bottom: 20px !important;
         left: 20px !important;
@@ -58,6 +60,14 @@ st.markdown("""
     .new-chat-btn {
         margin-top: 10px;
         width: 100%;
+    }
+    /* Adjust for mobile view */
+    @media (max-width: 768px) {
+        .stChatInput {
+            width: 90% !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
