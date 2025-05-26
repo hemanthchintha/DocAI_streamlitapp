@@ -1,6 +1,6 @@
 os
 streamlit
-openai==1.82.0
+openai
 dotenv 
 io
 PyPDF2
