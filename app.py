@@ -36,8 +36,18 @@ st.markdown("""
         background-color: #f5f5f5;
     }
     .stChatInput {
-        position: fixed;
-        bottom: 50px;
+        position: fixed !important;
+        bottom: 20px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 80% !important;
+        max-width: 800px !important;
+        z-index: 100 !important;
+    }
+    .stDeployButton {
+        bottom: 20px !important;
+        left: 20px !important;
+        z-index: 101 !important;
     }
     .pdf-display {
         padding: 10px;
