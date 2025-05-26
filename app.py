@@ -31,7 +31,7 @@ st.markdown("""
         margin-right: 0;
         padding: 10px;
         border-radius: 10px 10px 0 10px;
-        background-color: #e3f2fd;
+        background-color: #f5f5f5;
     }
     .assistant-message {
         text-align: left;
