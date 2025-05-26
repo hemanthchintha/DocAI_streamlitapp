@@ -52,6 +52,7 @@ st.markdown("""
         left: 0 !important;
         margin-left: 0 !important;
         padding-left: 0 !important;
+        padding-bottom:5 !important;
     }
     .pdf-display {
         padding: 10px;
