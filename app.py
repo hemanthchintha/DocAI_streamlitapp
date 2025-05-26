@@ -19,7 +19,6 @@ st.title("Doc AI - Pediatric Assistant 👶")
 # Custom CSS
 hide_streamlit_style = """
             <style>
-            #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
             """
