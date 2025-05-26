@@ -35,19 +35,23 @@ st.markdown("""
         border-radius: 10px 10px 10px 0;
         background-color: #f5f5f5;
     }
-    .stChatInput {
-        position: fixed !important;
-        text-align: left;
-        margin-right: 20%;
-        margin-left: 0;
-        padding: 10px;
-        border-radius: 10px 10px 10px 0;;
+    div[data-testid="stChatInputContainer"] {
+        width: 400px !important;
+        max-width: 400px !important;
     }
-    /* Position the manage app button */
-    .stDeployButton {
-        bottom: 20px !important;
-        left: 20px !important;
-        z-index: 101 !important;
+    
+    /* Style the actual input box */
+    div[data-testid="stChatInputContainer"] textarea {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+    
+    /* Position the container (remove fixed positioning) */
+    div[data-testid="stChatInputContainer"] {
+        position: relative !important;
+        left: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
     }
     .pdf-display {
         padding: 10px;
