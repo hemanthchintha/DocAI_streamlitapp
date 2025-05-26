@@ -43,8 +43,8 @@ st.markdown("""
         background-color: #f5f5f5;
     }
     div[data-testid="stChatInputContainer"] {
-        width: 400px !important;
-        max-width: 400px !important;
+        width: 200px !important;
+        max-width: 200px !important;
     }
     
     /* Style the actual input box */
